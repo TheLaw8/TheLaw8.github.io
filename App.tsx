@@ -49,7 +49,7 @@ const BlogListPage: React.FC = () => {
         <div className="lg:w-2/3">
           <header className="mb-12 border-b border-nature-200 pb-8">
             <h1 className="text-4xl md:text-5xl font-serif font-bold text-nature-900">
-              Travel Blog
+              My Blog
             </h1>
             <p className="text-nature-500 mt-4 font-serif text-lg">
             </p>
