@@ -23,6 +23,7 @@ export const posts: BlogPost[] = [
     date: '2025-11-23',
     location: 'Melbourne, Australia',
     summary: 'This is a test entry.',
+    // coverImage: '/images/Wooper.jpg',
     blocks: [
       {
         type: BlockType.HEADER,
@@ -30,24 +31,18 @@ export const posts: BlogPost[] = [
       },
       {
         type: BlockType.PARAGRAPH,
-        content: "This is a test paragraph to verify the new design and layout."
-      }
-    ]
-  },
-  {
-    id: 'test-2',
-    title: 'Previous Test',
-    date: '2025-11-22',
-    location: 'Sydney, Australia',
-    summary: 'Another test entry for the previous day.',
-    blocks: [
+        content: "This is a test paragraph."
+      },
       {
-        type: BlockType.HEADER,
-        content: 'Second Test Entry'
+        type: BlockType.IMAGE,
+        content: '/images/Wooper.jpg',
+        meta: {
+          alt: 'Wooper'
+        }
       },
       {
         type: BlockType.PARAGRAPH,
-        content: "This is a second test paragraph to verify the calendar and list sorting."
+        content: "Wooper's Birthday!"
       }
     ]
   }

@@ -1,9 +1,10 @@
 import React, { useMemo } from 'react';
 import { HashRouter, Routes, Route, Link, useParams, useNavigate } from 'react-router-dom';
-import { ArrowRight, MapPin, Calendar as CalendarIcon } from 'lucide-react';
+import { ArrowRight, Calendar as CalendarIcon } from 'lucide-react';
 import { Layout } from './components/Layout';
 import { BlockRenderer } from './components/BlockRenderer';
 import { Calendar } from './components/Calendar';
+import { BlogCard } from './components/BlogCard'; // <--- Import the new component
 import { getSortedPosts, getPostById } from './services/blogData';
 
 // --- Page: Home ---
@@ -14,32 +15,16 @@ const HomePage: React.FC = () => {
   return (
     <div className="animate-fade-in py-16 px-4">
       {latestPost ? (
-        <div className="max-w-4xl mx-auto">
+        <div className="max-w-5xl mx-auto">
           <div className="flex items-center justify-center mb-10">
-            <h2 className="text-nature-800 font-serif text-2xl md:text-3xl font-bold tracking-wide">Latest Blog Entry</h2>
+            <h2 className="text-nature-800 font-serif text-2xl md:text-3xl font-bold tracking-wide">
+              Latest Blog Entry
+            </h2>
           </div>
+          
+          {/* USE THE NEW COMPONENT HERE (Horizontal Variant) */}
+          <BlogCard post={latestPost} variant="horizontal" />
 
-          <div className="bg-white rounded-xl shadow-lg overflow-hidden flex flex-col md:flex-row transition-transform hover:-translate-y-1 duration-300 border border-nature-100">
-            {latestPost.coverImage && (
-              <div className="md:w-1/2 h-64 md:h-auto relative group">
-                 <img 
-                  src={latestPost.coverImage} 
-                  alt={latestPost.title} 
-                  className="w-full h-full object-cover absolute inset-0 transition-transform duration-700 group-hover:scale-105"
-                />
-              </div>
-            )}
-            <div className={`p-8 flex flex-col justify-center ${latestPost.coverImage ? 'md:w-1/2' : 'w-full'}`}>
-              <div className="flex items-center gap-2 text-nature-500 text-sm mb-3 font-sans tracking-wide">
-                <CalendarIcon size={14} /> {latestPost.date}
-              </div>
-              <h3 className="text-3xl font-serif font-bold text-nature-900 mb-4">{latestPost.title}</h3>
-              <p className="text-nature-700 mb-6 line-clamp-3 leading-relaxed font-serif">{latestPost.summary}</p>
-              <Link to={`/blog/${latestPost.id}`} className="text-nature-600 font-bold hover:text-nature-800 inline-flex items-center gap-2 text-xs uppercase tracking-widest font-sans">
-                Read Full Post <ArrowRight size={16} />
-              </Link>
-            </div>
-          </div>
         </div>
       ) : (
         <div className="text-center py-20 max-w-2xl mx-auto border-2 border-dashed border-nature-200 rounded-xl">
@@ -62,46 +47,18 @@ const BlogListPage: React.FC = () => {
         
         {/* Left Column: Post List */}
         <div className="lg:w-2/3">
-          <header className="mb-12">
-            <h1 className="text-5xl md:text-6xl font-serif font-bold text-nature-900">Travel Blog</h1>
+          <header className="mb-12 border-b border-nature-200 pb-8">
+            <h1 className="text-4xl md:text-5xl font-serif font-bold text-nature-900">
+              Travel Blog
+            </h1>
+            <p className="text-nature-500 mt-4 font-serif text-lg">
+            </p>
           </header>
 
           <div className="space-y-12">
             {sortedPosts.map(post => (
-              <article key={post.id} className="group bg-white p-6 rounded-xl shadow-sm border border-nature-200 hover:shadow-md transition-shadow">
-                {post.coverImage && (
-                  <Link to={`/blog/${post.id}`} className="block overflow-hidden rounded-lg mb-6 shadow-sm border border-nature-100">
-                    <div className="w-full h-64 md:h-80 overflow-hidden relative">
-                      <img 
-                        src={post.coverImage} 
-                        alt={post.title} 
-                        className="w-full h-full object-cover transform transition-transform duration-1000 group-hover:scale-105" 
-                      />
-                    </div>
-                  </Link>
-                )}
-                <div className="flex flex-col">
-                  <div className="flex items-center gap-3 text-sm text-nature-500 mb-3 font-sans uppercase tracking-widest">
-                     <CalendarIcon size={14} />
-                    <span>{post.date}</span>
-                    {post.location && (
-                      <>
-                        <span>•</span>
-                        <span>{post.location}</span>
-                      </>
-                    )}
-                  </div>
-                  <Link to={`/blog/${post.id}`}>
-                    <h2 className="text-3xl font-serif font-bold text-nature-800 group-hover:text-nature-600 mb-3 transition-colors leading-tight">
-                      {post.title}
-                    </h2>
-                  </Link>
-                  <p className="text-nature-600 mb-6 line-clamp-3 text-lg leading-relaxed font-serif">{post.summary}</p>
-                  <Link to={`/blog/${post.id}`} className="text-nature-800 hover:text-nature-600 font-serif italic text-base flex items-center gap-2">
-                    Read Entry <ArrowRight size={14} />
-                  </Link>
-                </div>
-              </article>
+              // USE THE NEW COMPONENT HERE (Default Vertical Variant)
+              <BlogCard key={post.id} post={post} variant="vertical" />
             ))}
             
             {sortedPosts.length === 0 && (
@@ -152,23 +109,23 @@ const BlogPostPage: React.FC = () => {
           <span>{post.date}</span>
           {post.location && (
             <>
-              <span className="mx-2">•</span>
+              <span className="mx-2 text-nature-300">•</span>
               <span>{post.location}</span>
             </>
           )}
         </div>
-        <h1 className="text-5xl md:text-6xl lg:text-7xl font-serif font-bold text-nature-900 mb-8 leading-tight">
+        <h1 className="text-4xl md:text-6xl font-serif font-bold text-nature-900 mb-8 leading-tight">
           {post.title}
         </h1>
         {post.coverImage && (
-          <div className="w-full aspect-video rounded-xl overflow-hidden shadow-lg mt-10">
+          <div className="w-full aspect-video rounded-xl overflow-hidden shadow-lg mt-10 border border-nature-200">
             <img src={post.coverImage} alt={post.title} className="w-full h-full object-cover" />
           </div>
         )}
       </header>
 
       {/* Post Content */}
-      <div className="prose prose-nature prose-lg mx-auto bg-white p-8 md:p-16 rounded-xl shadow-sm border border-nature-50">
+      <div className="prose prose-nature prose-lg mx-auto bg-white p-8 md:p-16 rounded-xl shadow-sm border border-nature-100">
         {post.blocks.map((block, index) => (
           <BlockRenderer key={index} block={block} />
         ))}
@@ -178,7 +135,6 @@ const BlogPostPage: React.FC = () => {
            <Link to="/blog" className="hover:text-nature-800 flex items-center gap-2 transition-colors uppercase font-bold text-xs">
              <ArrowRight className="rotate-180" size={16} /> Back to Blog
            </Link>
-           <span>{post.date}</span>
         </div>
       </div>
     </article>
