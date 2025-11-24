@@ -63,7 +63,7 @@ export const posts: BlogPost[] = [
       },
       {
         type: BlockType.IMAGE,
-        content: '/images/24-Nov-2025/Planes.HEIC',
+        content: '/images/24-Nov-2025/Planes.jpg',
       }
     ]
   }
