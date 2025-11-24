@@ -50,7 +50,7 @@ export const posts: BlogPost[] = [
     id: '24-Nov-2025-v1',
     title: 'Leaving Melbourne',
     date: '2025-11-24',
-    location: 'Melbourne - Chengdu',
+    location: 'Melbourne to Chengdu',
     summary: 'Melbourne to Chengdu',
     blocks: [
       {
