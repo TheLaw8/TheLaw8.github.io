@@ -45,6 +45,27 @@ export const posts: BlogPost[] = [
         content: "Wooper's Birthday!"
       }
     ]
+  },
+  {
+    id: '24-Nov-2025-v1',
+    title: 'Leaving Melbourne',
+    date: '2025-11-24',
+    location: 'Melbourne - Chengdu',
+    summary: 'Melbourne to Chengdu',
+    blocks: [
+      {
+        type: BlockType.HEADER,
+        content: 'Melbourne to Chengdu'
+      },
+      {
+        type: BlockType.PARAGRAPH,
+        content: "Taking flight 3U3886 to Chengdu"
+      },
+      {
+        type: BlockType.IMAGE,
+        content: '/images/24-Nov-2025/Planes.HEIC',
+      }
+    ]
   }
 ];
 
