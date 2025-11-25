@@ -86,6 +86,58 @@ export const posts: BlogPost[] = [
       {
         type: BlockType.IMAGE,
         content: '/images/25-Nov-2025/ChillingAccom.jpg',
+      },
+      {
+        type: BlockType.PARAGRAPH,
+        content: "Had breaky at LaiTangYuan"
+      },
+      {
+        type: BlockType.IMAGE,
+        content: '/images/25-Nov-2025/breakfast.jpg',
+      },
+      {
+        type: BlockType.PARAGRAPH,
+        content: "Chengdu Du Fu Thatched Cottage Museum"
+      },
+      {
+        type: BlockType.IMAGE,
+        content: '/images/25-Nov-2025/ThatchedCottageMuseum.jpg',
+      },
+      {
+        type: BlockType.PARAGRAPH,
+        content: "Bubble tea break!"
+      },
+      {
+        type: BlockType.IMAGE,
+        content: '/images/25-Nov-2025/XiCha.jpg',
+      },
+      {
+        type: BlockType.PARAGRAPH,
+        content: "Small lunch at People's Park (人民公园)"
+      },
+      {
+        type: BlockType.IMAGE,
+        content: '/images/25-Nov-2025/Lunch.jpg',
+      },
+      {
+        type: BlockType.PARAGRAPH,
+        content: "Walked to Tianfu Square and explored the area"
+      },
+      {
+        type: BlockType.IMAGE,
+        content: '/images/25-Nov-2025/TianfuSquare.JPG',
+      },
+            {
+        type: BlockType.PARAGRAPH,
+        content: "Dinner at 陶德砂锅"
+      },
+      {
+        type: BlockType.IMAGE,
+        content: '/images/25-Nov-2025/Dinner1.JPG',
+      },
+      {
+        type: BlockType.IMAGE,
+        content: '/images/25-Nov-2025/Dinner2.JPG',
       }
     ]
   }
