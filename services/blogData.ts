@@ -66,6 +66,28 @@ export const posts: BlogPost[] = [
         content: '/images/24-Nov-2025/Planes.jpg',
       }
     ]
+  },
+    {
+    id: '25-Nov-2025-v1',
+    title: 'Chengdu Day 1',
+    date: '2025-11-25',
+    location: 'Chengdu',
+    summary: 'Chengdu Day 1',
+    coverImage: '/images/25-Nov-2025/ThatchedCottageMuseum.JPG.jpg',
+    blocks: [
+      {
+        type: BlockType.HEADER,
+        content: 'Chengdu Day 1'
+      },
+      {
+        type: BlockType.PARAGRAPH,
+        content: "Landed very early in the morning at Chengdu Tianfu airport. Checked into hotel."
+      },
+      {
+        type: BlockType.IMAGE,
+        content: '/images/25-Nov-2025/ChillingAccom.jpg',
+      }
+    ]
   }
 ];
 
