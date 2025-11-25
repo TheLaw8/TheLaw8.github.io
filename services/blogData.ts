@@ -73,7 +73,7 @@ export const posts: BlogPost[] = [
     date: '2025-11-25',
     location: 'Chengdu',
     summary: 'Chengdu Day 1',
-    coverImage: '/images/25-Nov-2025/ThatchedCottageMuseum.JPG.jpg',
+    coverImage: '/images/25-Nov-2025/ThatchedCottageMuseum.JPG',
     blocks: [
       {
         type: BlockType.HEADER,
@@ -85,15 +85,15 @@ export const posts: BlogPost[] = [
       },
       {
         type: BlockType.IMAGE,
-        content: '/images/25-Nov-2025/ChillingAccom.jpg',
+        content: '/images/25-Nov-2025/ChillingAccom.JPG',
       },
       {
         type: BlockType.PARAGRAPH,
-        content: "Had breaky at LaiTangYuan"
+        content: "Had breaky at LaiTangYuan. 四喜汤圆 (tang yuan), 钟水饺 (bottom dumplings), 玻璃烧麦 (green thing to the left) & 原汤水饺 (the dumplings in the yellow soup)"
       },
       {
         type: BlockType.IMAGE,
-        content: '/images/25-Nov-2025/breakfast.jpg',
+        content: '/images/25-Nov-2025/breakfast.JPG',
       },
       {
         type: BlockType.PARAGRAPH,
@@ -101,19 +101,19 @@ export const posts: BlogPost[] = [
       },
       {
         type: BlockType.IMAGE,
-        content: '/images/25-Nov-2025/ThatchedCottageMuseum.jpg',
+        content: '/images/25-Nov-2025/ThatchedCottageMuseum.JPG',
       },
       {
         type: BlockType.PARAGRAPH,
-        content: "Bubble tea break!"
+        content: "Bubble tea break! I had the grape fruit tea, very yummy"
       },
       {
         type: BlockType.IMAGE,
-        content: '/images/25-Nov-2025/XiCha.jpg',
+        content: '/images/25-Nov-2025/XiCha.JPG',
       },
       {
         type: BlockType.PARAGRAPH,
-        content: "Small lunch at People's Park (人民公园)"
+        content: "Small lunch at People's Park (人民公园). 担担面 (noodles) & 钟水饺 (dumplings)."
       },
       {
         type: BlockType.IMAGE,
@@ -129,7 +129,7 @@ export const posts: BlogPost[] = [
       },
             {
         type: BlockType.PARAGRAPH,
-        content: "Dinner at 陶德砂锅"
+        content: "Dinner at 陶德砂锅."
       },
       {
         type: BlockType.IMAGE,
