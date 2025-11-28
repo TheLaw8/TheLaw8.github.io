@@ -324,6 +324,44 @@ export const posts: BlogPost[] = [
         content: '/images/27-Nov-2025/Map-27-Nov.jpg',
       }
     ]
+  },
+  {
+    id: '28-Nov-2025-v1',
+    title: 'Chengdu to Beijing',
+    date: '2025-11-28',
+    location: 'Chengdu to Beijing',
+    summary: 'Pandas & Peking Duck',
+    coverImage: '/images/28-Nov-2025/RedPanda1.jpg',
+    blocks: [
+      {
+        type: BlockType.HEADER,
+        content: 'Chengdu to Beijing'
+      },
+      {
+        type: BlockType.PARAGRAPH,
+        content: "Pandas!!!!!!!!!!!!!!!!"
+      },
+      {
+        type: BlockType.IMAGE,
+        content: '/images/28-Nov-2025/Panda.jpg',
+      },
+      {
+        type: BlockType.IMAGE,
+        content: '/images/28-Nov-2025/RedPanda1.jpg',
+      },
+      {
+        type: BlockType.IMAGE,
+        content: '/images/28-Nov-2025/RedPanda2.jpg',
+      },
+      {
+        type: BlockType.IMAGE,
+        content: '/images/28-Nov-2025/Peacock.jpg',
+      },
+      {
+        type: BlockType.PARAGRAPH,
+        content: "<<more to come soon>>"
+      },
+    ]
   }
 ];
 
