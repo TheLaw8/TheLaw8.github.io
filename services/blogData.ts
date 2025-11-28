@@ -109,7 +109,7 @@ export const posts: BlogPost[] = [
       },
       {
         type: BlockType.PARAGRAPH,
-        content: "喜茶 break! I had the grape fruit tea. Very yummy"
+        content: "喜茶 break! I had the grape fruit tea. Very yummy."
       },
       {
         type: BlockType.IMAGE,
@@ -167,7 +167,7 @@ export const posts: BlogPost[] = [
       },
       {
         type: BlockType.PARAGRAPH,
-        content: "We took a DiDi an hour north to visit the SanXingDui museum with relics from an ancient Shu city within the Shang dynasty"
+        content: "We took a DiDi an hour north to visit the SanXingDui museum. The museum contains artificats from an ancient Shu city during the Shang dynasty."
       },
       {
         type: BlockType.IMAGE,
@@ -187,7 +187,7 @@ export const posts: BlogPost[] = [
       },
       {
         type: BlockType.PARAGRAPH,
-        content: "We then headed an hour west towards the scenic mountain views at DuJiangYan"
+        content: "Travelled an hour west to the scenic mountain views of DuJiangYan"
       },
       {
         type: BlockType.IMAGE,
@@ -199,7 +199,7 @@ export const posts: BlogPost[] = [
       },
       {
         type: BlockType.PARAGRAPH,
-        content: "We rushed to the panda centre in DuJiangYan but it was closed :("
+        content: "We rushed to the panda centre in DuJiangYan but it was closed :(:(:("
       },
       {
         type: BlockType.IMAGE,
@@ -207,7 +207,7 @@ export const posts: BlogPost[] = [
       },
       {
         type: BlockType.PARAGRAPH,
-        content: "We returned to Chengdu and had hotpot for dinner. Despite being super spicy it was fantastic (apart from the pork...)"
+        content: "We returned to Chengdu and had hotpot for dinner. Despite being super spicy it was delicious (apart from the pork that had gone off...)"
       },
       {
         type: BlockType.IMAGE,
@@ -237,13 +237,84 @@ export const posts: BlogPost[] = [
       },
       {
         type: BlockType.PARAGRAPH,
-        content: "Woke up very early, grabbed breakfast at a closeby Lawson, and took a train to Chongqing (重庆)"
+        content: "Woke up very early. Grabbed breakfast at a closeby Lawson, and took a train to Chongqing (重庆)"
       },
       {
         type: BlockType.IMAGE,
         content: '/images/27-Nov-2025/ChengduTrainStation.jpg',
       },
-      
+      {
+        type: BlockType.PARAGRAPH,
+        content: "Kuixing building (Rooftop plaza)."
+      },
+      {
+        type: BlockType.IMAGE,
+        content: '/images/27-Nov-2025/KuiXingBuilding.jpg',
+      },
+      {
+        type: BlockType.PARAGRAPH,
+        content: "Light lunch - 重庆小面 (Chongqing little noodles)"
+      },
+      {
+        type: BlockType.IMAGE,
+        content: '/images/27-Nov-2025/ChongQingLittleNoodles.jpg',
+      },   
+      {
+        type: BlockType.PARAGRAPH,
+        content: "Walked to Jiefangbei Pedestrian Street & Time Square."
+      },
+      {
+        type: BlockType.IMAGE,
+        content: '/images/27-Nov-2025/SquareChongQing.jpg',
+      },
+      {
+        type: BlockType.PARAGRAPH,
+        content: "喜茶 break!"
+      },
+      {
+        type: BlockType.IMAGE,
+        content: '/images/27-Nov-2025/XiCha-27-Nov.jpg',
+      },      
+      {
+        type: BlockType.PARAGRAPH,
+        content: "Chili ice cream"
+      },
+      {
+        type: BlockType.IMAGE,
+        content: '/images/27-Nov-2025/ChiliIceCream.jpg',
+      },   
+      {
+        type: BlockType.PARAGRAPH,
+        content: "Cable car"
+      },
+      {
+        type: BlockType.IMAGE,
+        content: '/images/27-Nov-2025/CableCar.jpg',
+      },        
+      {
+        type: BlockType.PARAGRAPH,
+        content: "Walked to Raffles for the view"
+      },
+      {
+        type: BlockType.IMAGE,
+        content: '/images/27-Nov-2025/RiverIntersection-Raffles.jpg',
+      },  
+      {
+        type: BlockType.PARAGRAPH,
+        content: "Ate at a local hotpot place that our taxi driver recommended ... by far the best hotpot I've ever had"
+      },
+      {
+        type: BlockType.IMAGE,
+        content: '/images/27-Nov-2025/ChongQingHotpot-VeryGood.jpg',
+      },  
+      {
+        type: BlockType.PARAGRAPH,
+        content: "Finally visited Hongyadong before taking the train back to Chengdu"
+      },
+      {
+        type: BlockType.IMAGE,
+        content: '/images/27-Nov-2025/YellowCompactVillage.jpg',
+      }, 
       {
         type: BlockType.PARAGRAPH,
         content: "Today's route"
