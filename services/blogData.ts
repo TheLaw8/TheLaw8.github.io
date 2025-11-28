@@ -67,7 +67,7 @@ export const posts: BlogPost[] = [
       }
     ]
   },
-    {
+  {
     id: '25-Nov-2025-v1',
     title: 'Chengdu Day 1',
     date: '2025-11-25',
@@ -104,8 +104,12 @@ export const posts: BlogPost[] = [
         content: '/images/25-Nov-2025/ThatchedCottageMuseum.JPG',
       },
       {
+        type: BlockType.IMAGE,
+        content: '/images/25-Nov-2025/ThatchedCottageMuseum2.JPG',
+      },
+      {
         type: BlockType.PARAGRAPH,
-        content: "Bubble tea break! I had the grape fruit tea, very yummy"
+        content: "喜茶 break! I had the grape fruit tea. Very yummy"
       },
       {
         type: BlockType.IMAGE,
@@ -113,7 +117,7 @@ export const posts: BlogPost[] = [
       },
       {
         type: BlockType.PARAGRAPH,
-        content: "Small lunch at People's Park (人民公园). 担担面 (noodles) & 钟水饺 (dumplings)."
+        content: "Light lunch at 人民公园 (People's Park). 担担面 (noodles) & 钟水饺 (dumplings)"
       },
       {
         type: BlockType.IMAGE,
@@ -138,6 +142,115 @@ export const posts: BlogPost[] = [
       {
         type: BlockType.IMAGE,
         content: '/images/25-Nov-2025/Dinner2.JPG',
+      }
+    ]
+  },
+  {
+    id: '26-Nov-2025-v1',
+    title: 'Chengdu Day 2',
+    date: '2025-11-26',
+    location: 'Chengdu',
+    summary: 'Chengdu Day 2',
+    coverImage: '/images/26-Nov-2025/DuJiangYan2.jpg',
+    blocks: [
+      {
+        type: BlockType.HEADER,
+        content: 'Chengdu Day 2'
+      },
+      {
+        type: BlockType.PARAGRAPH,
+        content: "Breaky at a local spot. 甜水面 (centre), 钟水饺 (bottom right), 龙抄手 (bottom left), 担担面 (top left), & 素椒杂酱面 (top right)"
+      },
+      {
+        type: BlockType.IMAGE,
+        content: '/images/26-Nov-2025/Breakfast-26-Nov.jpg',
+      },
+      {
+        type: BlockType.PARAGRAPH,
+        content: "We took a DiDi an hour north to visit the SanXingDui museum with relics from an ancient Shu city within the Shang dynasty"
+      },
+      {
+        type: BlockType.IMAGE,
+        content: '/images/26-Nov-2025/SanXingDui1.jpg',
+      },
+      {
+        type: BlockType.IMAGE,
+        content: '/images/26-Nov-2025/SanXingDui2.jpg',
+      },
+      {
+        type: BlockType.PARAGRAPH,
+        content: "Aunty took us to a local restaurant in SanXingDui for lunch. We ordered 肝腰合炒, 青炒豌豆尖, 回锅肉 & 酸菜粉丝汤"
+      },
+      {
+        type: BlockType.IMAGE,
+        content: '/images/26-Nov-2025/Lunch-26-Nov.jpg',
+      },
+      {
+        type: BlockType.PARAGRAPH,
+        content: "We then headed an hour west towards the scenic mountain views at DuJiangYan"
+      },
+      {
+        type: BlockType.IMAGE,
+        content: '/images/26-Nov-2025/DuJiangYan1.jpg',
+      },
+      {
+        type: BlockType.IMAGE,
+        content: '/images/26-Nov-2025/DuJiangYan2.jpg',
+      },
+      {
+        type: BlockType.PARAGRAPH,
+        content: "We rushed to the panda centre in DuJiangYan but it was closed :("
+      },
+      {
+        type: BlockType.IMAGE,
+        content: '/images/26-Nov-2025/ClosedPandas.jpg',
+      },
+      {
+        type: BlockType.PARAGRAPH,
+        content: "We returned to Chengdu and had hotpot for dinner. Despite being super spicy it was fantastic (apart from the pork...)"
+      },
+      {
+        type: BlockType.IMAGE,
+        content: '/images/26-Nov-2025/ChengduHotPot.jpg',
+      },
+      {
+        type: BlockType.PARAGRAPH,
+        content: "Today's route"
+      },
+      {
+        type: BlockType.IMAGE,
+        content: '/images/26-Nov-2025/Map-26-Nov.jpg',
+      }
+    ]
+  },
+  {
+    id: '27-Nov-2025-v1',
+    title: 'Chongqing Day Trip',
+    date: '2025-11-27',
+    location: 'Chongqing',
+    summary: 'Chongqing Day Trip',
+    coverImage: '/images/27-Nov-2025/RiverIntersection-Raffles.jpg',
+    blocks: [
+      {
+        type: BlockType.HEADER,
+        content: 'Chonqing Day Trip'
+      },
+      {
+        type: BlockType.PARAGRAPH,
+        content: "Woke up very early, grabbed breakfast at a closeby Lawson, and took a train to Chongqing (重庆)"
+      },
+      {
+        type: BlockType.IMAGE,
+        content: '/images/27-Nov-2025/ChengduTrainStation.jpg',
+      },
+      
+      {
+        type: BlockType.PARAGRAPH,
+        content: "Today's route"
+      },
+      {
+        type: BlockType.IMAGE,
+        content: '/images/27-Nov-2025/Map-27-Nov.jpg',
       }
     ]
   }
