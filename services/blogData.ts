@@ -359,8 +359,32 @@ export const posts: BlogPost[] = [
       },
       {
         type: BlockType.PARAGRAPH,
-        content: "<<more to come soon>>"
+        content: "In the afternoon we took a plane from Chengdu to Beijing"
       },
+      {
+        type: BlockType.PARAGRAPH,
+        content: "After a long wait, we had peking duck for dinner at 四季民福. Quite possibly the best peking duck I've ever had - the duck was perfectly tender and its skin melted in my mouth"
+      },
+      {
+        type: BlockType.IMAGE,
+        content: '/images/28-Nov-2025/PekingDuck1.jpg',
+      },
+      {
+        type: BlockType.IMAGE,
+        content: '/images/28-Nov-2025/PekingDuck2.jpg',
+      },
+      {
+        type: BlockType.PARAGRAPH,
+        content: "Not sure what the name of these desserts are, but I found them very good, especially the purple one at the front in the bottom-most image. The white 'soup' contained taro balls and fish stomach???"
+      },
+      {
+        type: BlockType.IMAGE,
+        content: '/images/28-Nov-2025/PekingDuck3.jpg',
+      },
+      {
+        type: BlockType.IMAGE,
+        content: '/images/28-Nov-2025/PekingDuck4.jpg',
+      }
     ]
   }
 ];
