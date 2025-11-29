@@ -363,7 +363,7 @@ export const posts: BlogPost[] = [
       },
       {
         type: BlockType.PARAGRAPH,
-        content: "After a long wait, we had peking duck for dinner at 四季民福. Quite possibly the best peking duck I've ever had - the duck was perfectly tender and its skin melted in my mouth"
+        content: "After a long wait, we had peking duck for dinner at 四季民福. Quite possibly the best peking duck I've ever had - the duck was perfectly tender and its skin melted in my mouth."
       },
       {
         type: BlockType.IMAGE,
@@ -375,7 +375,7 @@ export const posts: BlogPost[] = [
       },
       {
         type: BlockType.PARAGRAPH,
-        content: "Not sure what the name of these desserts are, but I found them very good, especially the purple one at the front in the bottom-most image. The white 'soup' contained taro balls and fish stomach???"
+        content: "Not sure what the name of these desserts are, but they very good, especially the purple thing at the front of the bottom-most image. The white 'soup' contained taro balls and fish stomach???"
       },
       {
         type: BlockType.IMAGE,
