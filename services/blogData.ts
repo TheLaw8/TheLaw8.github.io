@@ -339,7 +339,7 @@ export const posts: BlogPost[] = [
       },
       {
         type: BlockType.PARAGRAPH,
-        content: "Pandas!!!!!!!!!!!!!!!!"
+        content: "Pandas!!!!!!!!!!!!!!!! :):):)"
       },
       {
         type: BlockType.IMAGE,
@@ -363,11 +363,7 @@ export const posts: BlogPost[] = [
       },
       {
         type: BlockType.PARAGRAPH,
-        content: "After a long wait, we had peking duck for dinner at 四季民福. Quite possibly the best peking duck I've ever had - the duck was perfectly tender and its skin melted in my mouth."
-      },
-      {
-        type: BlockType.IMAGE,
-        content: '/images/28-Nov-2025/PekingDuck1.jpg',
+        content: "We had peking duck for dinner at 四季民福. Absolutely fantastic peking duck - the duck was perfectly tender and its skin melted in my mouth."
       },
       {
         type: BlockType.IMAGE,
@@ -375,7 +371,27 @@ export const posts: BlogPost[] = [
       },
       {
         type: BlockType.PARAGRAPH,
-        content: "Not sure what the name of these desserts are, but they very good, especially the purple thing at the front of the bottom-most image. The white 'soup' contained taro balls and fish stomach???"
+        content: "For dessert, we had an interesting soup with fish maw (bladder). Then, in the bottom image, from top to bottom:"
+      },
+      {
+        type: BlockType.PARAGRAPH,
+        content: "1. Pea pudding (豌豆黄WanDouHuang) is a light yellow, delicately sweet Beijing dessert made from peeled yellow peas; it melts in the mouth and is enjoyed in spring and as a cooling summer treat. Palace versions became famous because Empress Dowager Cixi loved them, while the coarse-ground versions were common at spring temple fairs, especially during the lunar March 3rd “Pantao Festival” near Dongbianmen. Although once widely loved, authentic pea pudding is now harder to find. It's made by cooking soaked yellow peas until soft, mixing with sugar, then cooling the mixture to set before cutting it into squares, its natural color coming from the peas themselves."
+      },
+      {
+        type: BlockType.PARAGRAPH,
+        content: "2. White Bean Roll (芸豆卷YunDouJuan) is a traditional Chinese pastry made mainly from mashed white kidney beans and sweet red bean paste. It is known for its snow-white appearance, soft and delicate texture, and melt-in-the-mouth taste. To make it, cooked and peeled white beans are mashed into a smooth paste, spread onto plastic wrap, and rolled together with a layer of red bean filling. Originally a folk snack, Yun Dou Juan later became a dessert served in the Qing imperial court."
+      },
+      {
+        type: BlockType.PARAGRAPH,
+        content: "3. Donkey Rolling(驴打滚LvDaGun), also called soybean flour cake, is a traditional snack from Northeast China, old Beijing, and Tianjin, known for its distinct yellow, white, and red layers. Its name comes from the final step of coating the roll in soybean flour, which resembles the dust raised by wild donkeys rolling on the ground. Made with millet flour, soybean flour, sweet bean paste, sugar, sesame oil, and aromatics, it involves preparing the dough, making the filling, and shaping the roll. The finished snack is soft, sweet, and fragrant, with bean paste that melts in the mouth and a golden soybean coating enjoyed by all ages."
+      },
+      {
+        type: BlockType.PARAGRAPH,
+        content: "4. Ai Wo Wo (艾窝窝)（steamed glutinous rice cake with sweet stuffing ）is a long-standing traditional Beijing snack dating back to the Ming dynasty and beloved by the public. It features a soft, sticky outer shell made from glutinous rice flour and wheat flour, wrapped around a variety of fillings such as walnuts, sesame seeds, melon seeds, or mashed Chinese yam—simple, natural ingredients that are both nutritious and fragrant. Snow-white in color and sweet in flavor, Ai Wo Wo is often decorated with a small piece of red hawthorn jelly for a festive look. Its name comes from the thin layer of flour dusted on the outside and the small indentation pressed into the top."
+      },
+      {
+        type: BlockType.PARAGRAPH,
+        content: "5. Chilled Red Bean Jelly （小豆凉糕 )(XiaoDouLiangGao) is a traditional Beijing summer dessert made from red beans cooked, sieved, sweetened, and set with agar or gelatin. It has a soft, mildly sweet, cool texture and a purplish-brown color, and is traditionally considered refreshing and heat-clearing. I particularly enjoyed this one."
       },
       {
         type: BlockType.IMAGE,
