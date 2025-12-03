@@ -527,7 +527,7 @@ export const posts: BlogPost[] = [
       },
       {
         type: BlockType.PARAGRAPH,
-        content: "For dinner we went to the secluded Liu's Family Restaurant (刘宅食府) as recommended by our taxi driver. Was very impressed by the food, especially the ."
+        content: "For dinner we went to the secluded Liu's Family Restaurant (刘宅食府) as recommended by our taxi driver. Was very impressed by the food, especially the yellow one."
       },
       {
         type: BlockType.IMAGE,
