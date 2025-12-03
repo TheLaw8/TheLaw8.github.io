@@ -105,7 +105,7 @@ export const posts: BlogPost[] = [
       },
       {
         type: BlockType.IMAGE,
-        content: '/images/25-Nov-2025/ThatchedCottageMuseum2.JPG',
+        content: '/images/25-Nov-2025/ThatchedCottageMuseum2.jpg',
       },
       {
         type: BlockType.PARAGRAPH,
