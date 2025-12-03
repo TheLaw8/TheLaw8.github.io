@@ -519,11 +519,11 @@ export const posts: BlogPost[] = [
       },
       {
         type: BlockType.IMAGE,
-        content: '/images/30-Nov-2025/JinshanPark1.jpg',
+        content: '/images/30-Nov-2025/JingshanPark1.jpg',
       },
       {
         type: BlockType.IMAGE,
-        content: '/images/30-Nov-2025/JinshanPark2.jpg',
+        content: '/images/30-Nov-2025/JingshanPark2.jpg',
       },
       {
         type: BlockType.PARAGRAPH,
