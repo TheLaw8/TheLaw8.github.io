@@ -402,6 +402,68 @@ export const posts: BlogPost[] = [
         content: '/images/28-Nov-2025/PekingDuck4.jpg',
       }
     ]
+  },
+  {
+    id: '29-Nov-2025-v1',
+    title: 'Beijing Day 1',
+    date: '2025-11-29',
+    location: 'Beijing',
+    summary: 'The Great Wall of China',
+    coverImage: '/images/29-Nov-2025/GreatWall2.jpg',
+    blocks: [
+      {
+        type: BlockType.HEADER,
+        content: 'Beijing Day 1'
+      },
+      {
+        type: BlockType.PARAGRAPH,
+        content: "Breaky"
+      },
+      {
+        type: BlockType.IMAGE,
+        content: '/images/29-Nov-2025/Breakfast-29Dec.jpg',
+      },
+      {
+        type: BlockType.PARAGRAPH,
+        content: "Drove to the Great Wall (慕田峪 - mutianyu)"
+      },
+      {
+        type: BlockType.IMAGE,
+        content: '/images/29-Nov-2025/GreatWall1.jpg',
+      },
+      {
+        type: BlockType.IMAGE,
+        content: '/images/29-Nov-2025/GreatWall2.jpg',
+      },
+      {
+        type: BlockType.IMAGE,
+        content: '/images/29-Nov-2025/GreatWall3.jpg',
+      },
+      {
+        type: BlockType.IMAGE,
+        content: '/images/29-Nov-2025/GreatWall4.jpg',
+      },
+      {
+        type: BlockType.PARAGRAPH,
+        content: "Xi Cha Break!"
+      },
+      {
+        type: BlockType.IMAGE,
+        content: '/images/29-Nov-2025/XiCha-29Nov.jpg',
+      },
+      {
+        type: BlockType.PARAGRAPH,
+        content: "Hotpot at 南门涮肉 (nanmen hotpot). 太好吃了！"
+      },
+      {
+        type: BlockType.IMAGE,
+        content: '/images/29-Nov-2025/HotPot1.jpg',
+      },
+      {
+        type: BlockType.IMAGE,
+        content: '/images/29-Nov-2025/HotPot2.jpg',
+      },
+    ]
   }
 ];
 
