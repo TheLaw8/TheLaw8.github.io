@@ -519,15 +519,15 @@ export const posts: BlogPost[] = [
       },
       {
         type: BlockType.IMAGE,
-        content: '/images/30-Nov-2025/ForbiddenCity1.jpg',
+        content: '/images/30-Nov-2025/JinshanPark1.jpg',
       },
       {
         type: BlockType.IMAGE,
-        content: '/images/30-Nov-2025/ForbiddenCity2.jpg',
+        content: '/images/30-Nov-2025/JinshanPark2.jpg',
       },
       {
         type: BlockType.PARAGRAPH,
-        content: ""
+        content: "For dinner we went to the secluded Liu's Family Restaurant (刘宅食府) as recommended by our taxi driver. Was very impressed by the food, especially the ."
       },
       {
         type: BlockType.IMAGE,
