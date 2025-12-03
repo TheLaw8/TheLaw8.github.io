@@ -464,6 +464,101 @@ export const posts: BlogPost[] = [
         content: '/images/29-Nov-2025/HotPot2.jpg',
       },
     ]
+  },
+  {
+    id: '30-Nov-2025-v1',
+    title: 'Beijing Day 2',
+    date: '2025-11-30',
+    location: 'Beijing',
+    summary: 'Central Beijing',
+    coverImage: '/images/30-Nov-2025/ForbiddenCity1.jpg',
+    blocks: [
+      {
+        type: BlockType.HEADER,
+        content: 'Beijing Day 2'
+      },
+      {
+        type: BlockType.PARAGRAPH,
+        content: "After having the same breakfast as yesterday, we visited the Temple of Heaven (天坛)"
+      },
+      {
+        type: BlockType.IMAGE,
+        content: '/images/30-Nov-2025/TempleOfHeaven.jpg',
+      },
+      {
+        type: BlockType.PARAGRAPH,
+        content: "Beautiful marble 'painting'"
+      },
+      {
+        type: BlockType.IMAGE,
+        content: '/images/30-Nov-2025/MarblePainting.jpg',
+      },
+      {
+        type: BlockType.PARAGRAPH,
+        content: "Continuing north, Tiananmen Square (天安门广场)"
+      },
+      {
+        type: BlockType.IMAGE,
+        content: '/images/30-Nov-2025/TianAnMenSquare.jpg',
+      },
+      {
+        type: BlockType.PARAGRAPH,
+        content: "Forbidden City (故宫)"
+      },
+      {
+        type: BlockType.IMAGE,
+        content: '/images/30-Nov-2025/ForbiddenCity1.jpg',
+      },
+      {
+        type: BlockType.IMAGE,
+        content: '/images/30-Nov-2025/ForbiddenCity2.jpg',
+      },
+      {
+        type: BlockType.PARAGRAPH,
+        content: "Climbing up the hill in Jingshan Park (景山公园) for a view of the Forbidden City"
+      },
+      {
+        type: BlockType.IMAGE,
+        content: '/images/30-Nov-2025/ForbiddenCity1.jpg',
+      },
+      {
+        type: BlockType.IMAGE,
+        content: '/images/30-Nov-2025/ForbiddenCity2.jpg',
+      },
+      {
+        type: BlockType.PARAGRAPH,
+        content: ""
+      },
+      {
+        type: BlockType.IMAGE,
+        content: '/images/30-Nov-2025/Dinner1.jpg',
+      },
+      {
+        type: BlockType.IMAGE,
+        content: '/images/30-Nov-2025/Dinner2.jpg',
+      },
+      {
+        type: BlockType.IMAGE,
+        content: '/images/30-Nov-2025/Dinner3.jpg',
+      },
+      {
+        type: BlockType.IMAGE,
+        content: '/images/30-Nov-2025/Dinner4.jpg',
+      },
+      {
+        type: BlockType.IMAGE,
+        content: '/images/30-Nov-2025/Dinner5.jpg',
+      },
+      {
+        type: BlockType.PARAGRAPH,
+        content: "Today's route"
+      },
+      {
+        type: BlockType.IMAGE,
+        content: '/images/30-Nov-2025/Route-30Nov.jpg',
+      }
+      
+    ]
   }
 ];
 
