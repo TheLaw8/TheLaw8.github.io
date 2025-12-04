@@ -363,7 +363,7 @@ export const posts: BlogPost[] = [
       },
       {
         type: BlockType.PARAGRAPH,
-        content: "We had peking duck for dinner at 四季民福. Absolutely fantastic peking duck - the duck was perfectly tender and its skin melted in my mouth."
+        content: "We had peking duck for dinner at 四季民福. Was absolutely fantastic."
       },
       {
         type: BlockType.IMAGE,
@@ -387,7 +387,7 @@ export const posts: BlogPost[] = [
       },
       {
         type: BlockType.PARAGRAPH,
-        content: "4. Ai Wo Wo (艾窝窝)（steamed glutinous rice cake with sweet stuffing ）is a long-standing traditional Beijing snack dating back to the Ming dynasty and beloved by the public. It features a soft, sticky outer shell made from glutinous rice flour and wheat flour, wrapped around a variety of fillings such as walnuts, sesame seeds, melon seeds, or mashed Chinese yam—simple, natural ingredients that are both nutritious and fragrant. Snow-white in color and sweet in flavor, Ai Wo Wo is often decorated with a small piece of red hawthorn jelly for a festive look. Its name comes from the thin layer of flour dusted on the outside and the small indentation pressed into the top."
+        content: "4. Ai Wo Wo (艾窝窝)（steamed glutinous rice cake with sweet stuffing）is a long-standing traditional Beijing snack dating back to the Ming dynasty and beloved by the public. It features a soft, sticky outer shell made from glutinous rice flour and wheat flour, wrapped around a variety of fillings such as walnuts, sesame seeds, melon seeds, or mashed Chinese yam—simple, natural ingredients that are both nutritious and fragrant. Snow-white in color and sweet in flavor, Ai Wo Wo is often decorated with a small piece of red hawthorn jelly for a festive look. Its name comes from the thin layer of flour dusted on the outside and the small indentation pressed into the top."
       },
       {
         type: BlockType.PARAGRAPH,
@@ -527,7 +527,7 @@ export const posts: BlogPost[] = [
       },
       {
         type: BlockType.PARAGRAPH,
-        content: "For dinner we went to the secluded Liu's Family Restaurant (刘宅食府) as recommended by our taxi driver. Was very impressed by the food, especially the yellow one."
+        content: "For dinner we went to the secluded Liu's Family Restaurant (刘宅食府) as recommended by our taxi driver. I was very impressed by the food, especially the 宫廷三不沾 (the yellow dish). From top to bottom: Liu Zhai Beef & Eggplant Rolls (刘宅牛肉茄子卷), Imperial Three Non-stick San Bu Zhan Egg Custard Mochi/Pudding (宫廷三不沾), Lightly Tossed Pea Shoots (巧拌豆苗)."
       },
       {
         type: BlockType.IMAGE,
@@ -551,15 +551,84 @@ export const posts: BlogPost[] = [
       },
       {
         type: BlockType.PARAGRAPH,
+        content: "We were served 3 plates of duck: One with just the duck meat (to be eaten by itself), one with just the duck skin (to be eaten with sugar), and one with both duck meat & skin (to be wrapped with the various provided ingredients). The duck that we had two days ago at 四季民福 was slightly better, but the side dishes here were clearly superior."
+      },
+      {
+        type: BlockType.PARAGRAPH,
         content: "Today's route"
       },
       {
         type: BlockType.IMAGE,
         content: '/images/30-Nov-2025/Route-30Nov.jpg',
       }
-      
     ]
-  }
+  },
+  {
+    id: '01-Dec-2025-v1',
+    title: 'Beijing to Shanghai',
+    date: '2025-12-01',
+    location: 'Beijing to Shanghai',
+    summary: 'Beijing to Shanghai',
+    coverImage: '/images/01-Dec-2025/.jpg',
+    blocks: [
+      {
+        type: BlockType.HEADER,
+        content: 'Beijing to Shanghai'
+      },
+      {
+        type: BlockType.PARAGRAPH,
+        content: ""
+      },
+      {
+        type: BlockType.IMAGE,
+        content: '/images/01-Dec-2025/.jpg',
+      }
+    ]
+  },
+  {
+    id: '02-Dec-2025-v1',
+    title: 'Shanghai Day 1',
+    date: '2025-12-02',
+    location: 'Shanghai',
+    summary: 'Central Shanghai',
+    coverImage: '/images/02-Dec-2025/.jpg',
+    blocks: [
+      {
+        type: BlockType.HEADER,
+        content: 'Shanghai Day 1'
+      },
+      {
+        type: BlockType.PARAGRAPH,
+        content: ""
+      },
+      {
+        type: BlockType.IMAGE,
+        content: '/images/02-Dec-2025/.jpg',
+      }
+    ]
+  },
+  {
+    id: '03-Dec-2025-v1',
+    title: 'Shanghai Day 2',
+    date: '2025-12-03',
+    location: 'Shanghai',
+    summary: 'Zhujiajiao Water Village',
+    coverImage: '/images/03-Dec-2025/.jpg',
+    blocks: [
+      {
+        type: BlockType.HEADER,
+        content: 'Shanghai Day 2'
+      },
+      {
+        type: BlockType.PARAGRAPH,
+        content: ""
+      },
+      {
+        type: BlockType.IMAGE,
+        content: '/images/03-Dec-2025/.jpg',
+      }
+    ]
+  },
 ];
 
 // Helper to sort posts by date (newest first)
