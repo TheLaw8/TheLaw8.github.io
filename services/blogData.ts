@@ -531,7 +531,7 @@ export const posts: BlogPost[] = [
     title: 'Beijing to Shanghai',
     date: '2025-12-01',
     location: 'Beijing to Shanghai',
-    summary: 'Beijing to Shanghai',
+    summary: 'Travel Day',
     blocks: [
       {
         type: BlockType.HEADER,
@@ -552,7 +552,11 @@ export const posts: BlogPost[] = [
       {
         type: BlockType.IMAGE,
         content: '/images/01-Dec-2025/FriedXiaoLongBao.jpg',
-      }
+      },
+      {
+        type: BlockType.PARAGRAPH,
+        content: "Then we played Mario Party on Louis' switch"
+      },
     ]
   },
   {
@@ -574,6 +578,14 @@ export const posts: BlogPost[] = [
       {
         type: BlockType.IMAGE,
         content: '/images/02-Dec-2025/.jpg',
+      },
+      {
+        type: BlockType.PARAGRAPH,
+        content: "Today's route (with some GPS tracking bugs)"
+      },
+      {
+        type: BlockType.IMAGE,
+        content: '/images/02-Dec-2025/ShanghaiDay1Route.jpg',
       }
     ]
   },
@@ -596,6 +608,14 @@ export const posts: BlogPost[] = [
       {
         type: BlockType.IMAGE,
         content: '/images/03-Dec-2025/.jpg',
+      },
+      {
+        type: BlockType.PARAGRAPH,
+        content: "Today's route"
+      },
+      {
+        type: BlockType.IMAGE,
+        content: '/images/03-Dec-2025/ShanghaiDay2Route.jpg',
       }
     ]
   },
