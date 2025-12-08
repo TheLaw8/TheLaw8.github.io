@@ -565,7 +565,7 @@ export const posts: BlogPost[] = [
     date: '2025-12-02',
     location: 'Shanghai',
     summary: 'Central Shanghai',
-    coverImage: '/images/02-Dec-2025/.jpg',
+    coverImage: '/images/02-Dec-2025/Bund1.jpg',
     blocks: [
       {
         type: BlockType.HEADER,
@@ -595,7 +595,7 @@ export const posts: BlogPost[] = [
     date: '2025-12-03',
     location: 'Shanghai',
     summary: 'Zhujiajiao Water Village',
-    coverImage: '/images/03-Dec-2025/.jpg',
+    coverImage: '/images/03-Dec-2025/WaterVillage4.jpg',
     blocks: [
       {
         type: BlockType.HEADER,
