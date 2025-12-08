@@ -532,7 +532,6 @@ export const posts: BlogPost[] = [
     date: '2025-12-01',
     location: 'Beijing to Shanghai',
     summary: 'Beijing to Shanghai',
-    coverImage: '/images/01-Dec-2025/.jpg',
     blocks: [
       {
         type: BlockType.HEADER,
@@ -540,11 +539,19 @@ export const posts: BlogPost[] = [
       },
       {
         type: BlockType.PARAGRAPH,
-        content: ""
+        content: "Woke up early and took the train to Shanghai"
       },
       {
         type: BlockType.IMAGE,
-        content: '/images/01-Dec-2025/.jpg',
+        content: '/images/01-Dec-2025/BeijingToShanghaiTrain.jpg',
+      },
+      {
+        type: BlockType.PARAGRAPH,
+        content: "Our hotel in Shanghai was right next to the Yuyuan garden. For a night snack we had these really good 生煎包 at 小杨生煎 (that are essentially fried xiao long bao)"
+      },
+      {
+        type: BlockType.IMAGE,
+        content: '/images/01-Dec-2025/FriedXiaoLongBao.jpg',
       }
     ]
   },
