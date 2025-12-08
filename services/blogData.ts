@@ -18,35 +18,6 @@ import { BlogPost, BlockType } from '../types';
 
 export const posts: BlogPost[] = [
   {
-    id: 'test',
-    title: 'Test',
-    date: '2025-11-23',
-    location: 'Melbourne, Australia',
-    summary: 'This is a test entry.',
-    // coverImage: '/images/Wooper.jpg',
-    blocks: [
-      {
-        type: BlockType.HEADER,
-        content: 'Test Entry'
-      },
-      {
-        type: BlockType.PARAGRAPH,
-        content: "This is a test paragraph."
-      },
-      {
-        type: BlockType.IMAGE,
-        content: '/images/Wooper.jpg',
-        meta: {
-          alt: 'Wooper'
-        }
-      },
-      {
-        type: BlockType.PARAGRAPH,
-        content: "Wooper's Birthday!"
-      }
-    ]
-  },
-  {
     id: '24-Nov-2025-v1',
     title: 'Leaving Melbourne',
     date: '2025-11-24',
@@ -495,15 +466,7 @@ export const posts: BlogPost[] = [
       },
       {
         type: BlockType.PARAGRAPH,
-        content: "Continuing north, Tiananmen Square (天安门广场)"
-      },
-      {
-        type: BlockType.IMAGE,
-        content: '/images/30-Nov-2025/TianAnMenSquare.jpg',
-      },
-      {
-        type: BlockType.PARAGRAPH,
-        content: "Forbidden City (故宫)"
+        content: "Continuing north, Forbidden City (故宫)"
       },
       {
         type: BlockType.IMAGE,
