@@ -547,7 +547,7 @@ export const posts: BlogPost[] = [
       },
       {
         type: BlockType.PARAGRAPH,
-        content: "Our hotel in Shanghai was right next to the Yuyuan garden. For a night snack we had these really good 生煎包 at 小杨生煎 (that are essentially fried xiao long bao)"
+        content: "Our hotel in Shanghai was right next to the Yuyuan gardens. For a night snack we had these really good 生煎包 at 小杨生煎 (essentially fried xiao long baos)"
       },
       {
         type: BlockType.IMAGE,
@@ -555,7 +555,7 @@ export const posts: BlogPost[] = [
       },
       {
         type: BlockType.PARAGRAPH,
-        content: "Then we played Mario Party on Louis' switch"
+        content: "Then we played Mario Party on Louis' Switch"
       },
     ]
   },
