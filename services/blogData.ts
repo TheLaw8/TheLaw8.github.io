@@ -619,6 +619,60 @@ export const posts: BlogPost[] = [
       }
     ]
   },
+  {
+    id: '04-Dec-2025-v1',
+    title: 'Shanghai to Nara',
+    date: '2025-12-04',
+    location: 'Shanghai to Nara',
+    summary: 'Travel Day',
+    coverImage: '/images/04-Dec-2025/ShanghaiAirport.jpg',
+    blocks: [
+      {
+        type: BlockType.HEADER,
+        content: 'Shanghai to Nara'
+      },
+      {
+        type: BlockType.PARAGRAPH,
+        content: "Took a flight in the morning to Osaka from Shanghai Pudong"
+      },
+      {
+        type: BlockType.IMAGE,
+        content: '/images/04-Dec-2025/ShanghaiAirport.jpg',
+      },
+      {
+        type: BlockType.PARAGRAPH,
+        content: "Then we took the train to Nara and checked into our accomodation (which had an onsen)"
+      },
+      {
+        type: BlockType.IMAGE,
+        content: '/images/04-Dec-2025/NaraHotel.jpg',
+      },
+      {
+        type: BlockType.PARAGRAPH,
+        content: "For dinner, we had ramen at a local restaurant 😋 (ドン・チードル)"
+      },
+      {
+        type: BlockType.IMAGE,
+        content: '/images/04-Dec-2025/RamenShopNara.jpg',
+      },
+      {
+        type: BlockType.IMAGE,
+        content: '/images/04-Dec-2025/RamenDinner.jpg',
+      },
+      { 
+        type: BlockType.PARAGRAPH,
+        content: "Nara at night"
+      },
+      {
+        type: BlockType.IMAGE,
+        content: '/images/04-Dec-2025/NaraNight1.jpg',
+      },
+      {
+        type: BlockType.IMAGE,
+        content: '/images/04-Dec-2025/NaraNight2.jpg',
+      }
+    ]
+  },
 ];
 
 // Helper to sort posts by date (newest first)
