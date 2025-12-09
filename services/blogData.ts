@@ -633,7 +633,7 @@ export const posts: BlogPost[] = [
       },
       {
         type: BlockType.PARAGRAPH,
-        content: "Took a flight in the morning to Osaka from Shanghai Pudong"
+        content: "Took a flight in the morning to Osaka from Shanghai Pudong (pictured below)"
       },
       {
         type: BlockType.IMAGE,
